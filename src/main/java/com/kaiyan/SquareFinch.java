@@ -5,6 +5,7 @@ import com.birdbrain.Finch;
 public class SquareFinch {
     public static void main(String[] args) {
         Finch alston = new Finch();
+        alston.setMotors(100,100);
 
         for (int i = 0; i<4; i++){
         alston.setMove("F",10,100);
@@ -12,6 +13,7 @@ public class SquareFinch {
        //alston.setBeak(100, 0, 0);
        //alston.getLight("L");
         }
+        alston.setTail(2,0,0,100);
         alston.setMove("F", 10, 100);
         alston.setMove("B", 10, 100);
         alston.stop();
