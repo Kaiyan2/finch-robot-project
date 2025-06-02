@@ -9,7 +9,11 @@ public class SquareFinch {
         for (int i = 0; i<4; i++){
         alston.setMove("F",10,100);
         alston.setTurn("R",90,100);
+       //alston.setBeak(100, 0, 0);
+       //alston.getLight("L");
         }
+        alston.setMove("F", 10, 100);
+        alston.setMove("B", 10, 100);
         alston.stop();
         alston.disconnect();
     }
