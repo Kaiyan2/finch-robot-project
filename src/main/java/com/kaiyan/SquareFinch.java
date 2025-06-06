@@ -15,6 +15,11 @@ public class SquareFinch {
        alston.getLight("L");
         }
         alston.setTail(2,0,0,100);
+        alston.playNote(69, 2);
+        alston.setMove("F", 10, 100);
+        alston.setMove("B", 10, 100);
+        alston.setMove("F", 10, 100);
+        alston.setMove("B", 10, 100);
         alston.setMove("F", 10, 100);
         alston.setMove("B", 10, 100);
         alston.stop();
